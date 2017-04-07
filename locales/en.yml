@@ -1,2 +1,25 @@
 en:
-  navigation: coucou
+  title: Laissez-vous bercer par Koala
+
+  list:
+    first:
+      title: Je lance Koala
+    second:
+      title: La lumière de Koala se diffuse
+    third:
+      title: Je respire en rythme avec la lumière
+    fourth:
+      title: Ma respiration se réduit progressivement
+    fifth:
+      title: Je m’endors et Koala s’éteint tout seul
+
+  footer:
+    lang:
+      title: Français
+      link: ../../
+    contact:
+      title: Contact us
+      link: "#"
+    muxu:
+      title: Made with love by Muxu.Muxu
+      link: "https://www.muxumuxu.com"

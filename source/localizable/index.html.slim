@@ -1,0 +1,22 @@
+.wrapper
+
+  .left
+    = partial 'images/icon.svg'
+    
+    h1 = t 'title'
+
+    ol 
+      - t('list').each do |id, item|
+        li = item[:title]
+        
+    = link_to t('badge.link'), target: "_blank"
+      = image_tag "badge.svg", class: "badge"
+      
+    ul 
+      -t('footer').each do |id, item|
+        li 
+          = link_to item[:link]
+            = item[:title]
+        
+  .right 
+    = image_tag 'device.svg'
