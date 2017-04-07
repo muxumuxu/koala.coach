@@ -2,5 +2,5 @@
 
 bundle exec middleman build
 cd build
-surge -d koala-landing-page.surge.sh -p .
+surge -d koala.coach -p .
 cd ..
