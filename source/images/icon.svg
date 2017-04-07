@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>icon</title>
-    <desc>Created with Sketch.</desc>
+    <title>Gilles23</title>
+    <style>
+      svg:hover .Z {
+        animation: 3s fade linear infinite;
+        opacity: 0;
+        transform-origin: left bottom;
+      }
+      svg:hover #Z3 {
+        animation-delay: 1.5s;
+      }
+      svg:hover #Z2 {
+        animation-delay: 1s;
+      }
+      @keyframes fade {
+        0% {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: 0;
+          transform: scale(1.1);
+        }
+      }
+
+    </style>
     <defs>
         <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#07064F" offset="0%"></stop>
@@ -171,12 +197,12 @@
                             <use fill="url(#linearGradient-18)" fill-rule="evenodd" xlink:href="#path-19"></use>
                             <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-19"></use>
                         </g>
-                        <g id="Z">
+                        <g class="Z">
                             <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
                             <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-22"></use>
                         </g>
-                        <polygon id="Z" fill="#FFFFFF" points="73.32 3.24 64.616 3.24 64.616 5.848 68.76 5.848 64.392 14.936 64.392 15 73.48 15 73.48 12.392 68.968 12.392 73.32 3.304"></polygon>
-                        <polygon id="Z" fill="#FFFFFF" points="82.51 0.445 75.438 0.445 75.438 2.564 78.805 2.564 75.256 9.948 75.256 10 82.64 10 82.64 7.881 78.974 7.881 82.51 0.497"></polygon>
+                        <polygon class="Z" id="Z2" fill="#FFFFFF" points="73.32 3.24 64.616 3.24 64.616 5.848 68.76 5.848 64.392 14.936 64.392 15 73.48 15 73.48 12.392 68.968 12.392 73.32 3.304"></polygon>
+                        <polygon class="Z" id="Z3" fill="#FFFFFF" points="82.51 0.445 75.438 0.445 75.438 2.564 78.805 2.564 75.256 9.948 75.256 10 82.64 10 82.64 7.881 78.974 7.881 82.51 0.497"></polygon>
                         <g id="eye" transform="translate(28.000000, 42.000000)">
                             <g id="Combined-Shape">
                                 <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
