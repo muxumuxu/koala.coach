@@ -1,17 +1,17 @@
 en:
-  title: Laissez-vous bercer par Koala
+  title: Let yourself be gently soothed by Koala
 
   list:
     first:
-      title: Je lance Koala
+      title: Launch Koala
     second:
-      title: La lumière de Koala se diffuse
+      title: Koala's light spread through your room
     third:
-      title: Je respire en rythme avec la lumière
+      title: Breathe in time to the rythm of the light
     fourth:
-      title: Ma respiration se réduit progressivement
+      title: Your breathing slowly reduce
     fifth:
-      title: Je m’endors et Koala s’éteint tout seul
+      title: You fall asleep and Koala stops by itself
 
   footer:
     lang:
@@ -19,7 +19,10 @@ en:
       link: ../../
     contact:
       title: Contact us
-      link: "#"
+      link: "mailto:koala@muxumuxu.com"
     muxu:
       title: Made with love by Muxu.Muxu
       link: "https://www.muxumuxu.com"
+
+  badge:
+    link: "https://appstore.com/muxumuxu/koala"
