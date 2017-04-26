@@ -1,0 +1,28 @@
+pt:
+  title: Laissez-vous bercer par Koala
+
+  list:
+    first:
+      title: J'éteins ma lumière et je démarre Koala
+    second:
+      title: La lumière de Koala se diffuse
+    third:
+      title: Je respire en rythme avec elle
+    fourth:
+      title: Ma respiration se réduit progressivement
+    fifth:
+      title: Je m’endors et Koala s’éteint tout seul
+
+  footer:
+    lang:
+      title: English
+      link: ../en
+    contact:
+      title: Contactez-nous
+      link: "mailto:koala@muxumuxu.com"
+    muxu:
+      title: Fait avec amour par Muxu.Muxu
+      link: "https://www.muxumuxu.com"
+
+  badge:
+    link: "https://itunes.apple.com/fr/app/koala-to-sleep-better-and-faster/id1224807364?l=fr"
