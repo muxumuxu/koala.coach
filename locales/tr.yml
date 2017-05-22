@@ -1,0 +1,28 @@
+tr:
+  title: Kendinizi usulca Koala'ya bırakın
+
+  list:
+    first:
+      title: Işıkları kapatın ve Koala'yı başlatın
+    second:
+      title: Koala'nın ışığı odanıza yayılır
+    third:
+      title: Işığın ritmine uyarak nefes alın
+    fourth:
+      title: Nefesiniz yavaş yavaş ağırlaşır
+    fifth:
+      title: Siz uykuya dalarken Koala kendi kendine kapanır
+
+  footer:
+    lang:
+      title: Ingilizce
+      link: ../en
+    contact:
+      title: Bize ulaşın
+      link: "mailto:koala@muxumuxu.com"
+    muxu:
+      title: Muxu.Muxu hazırlamıştır
+      link: "https://www.muxumuxu.com"
+
+  badge:
+    link: "https://itunes.apple.com/en/app/koala-to-sleep-better-and-faster/id1224807364?l=en"
