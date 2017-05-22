@@ -13,7 +13,10 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
-activate :directory_indexes
+configure :build do
+  activate :directory_indexes
+  set :relative_links, true
+end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
