@@ -7,6 +7,14 @@ end
 
 activate :i18n, mount_at_root: :en, langs: [:fr, :en, :pt, :tr]
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'gh-pages'
+  deploy.build_before = true
+end
+
+activate :directory_indexes
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
