@@ -12,6 +12,8 @@ html lang="en"
       meta name="description" content="Let yourself be gently soothed by Koala."
     - if I18n.locale == :tr
       meta name="description" content="Kendinizi usulca Koala'ya bırakın."
+    - if I18n.locale == :pt
+      meta name="description" content="Deixem-se embalar por Koala."
     meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" name="viewport" /
     
     meta property="og:site_name" content="Koala"
@@ -24,6 +26,8 @@ html lang="en"
       meta property="og:description" content="Let yourself be gently soothed by Koala."
     - if I18n.locale == :tr
       meta property="og:description" content="Kendinizi usulca Koala'ya bırakın."
+    - if I18n.locale == :pt
+      meta property="og:description" content="Deixem-se embalar por Koala"
     meta property="og:image" content="http://koala.coach#{image_path('og-image.jpg')}"
 
     meta name="twitter:card" content="summary_large_image"
