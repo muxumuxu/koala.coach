@@ -5,7 +5,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :i18n, mount_at_root: :en, langs: [:fr, :en]
+activate :i18n, mount_at_root: :en, langs: [:fr, :en, :pt, :tr]
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
