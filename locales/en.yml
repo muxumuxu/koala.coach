@@ -16,7 +16,7 @@ en:
   footer:
     lang:
       title: Français
-      link: ../../
+      link: ../fr
     contact:
       title: Contact us
       link: "mailto:koala@muxumuxu.com"
